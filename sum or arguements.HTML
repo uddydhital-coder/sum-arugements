@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Sum of Arguments</h3>
+
+<script>
+  function sumAll(...nums) {
+    return nums.reduce((total, n) => total + n, 0);
+  }
+
+  document.write("Sum of (5, 10, 15): " + sumAll(5, 10, 15));
+</script>
+
+</body>
+</html>
